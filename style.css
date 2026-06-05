@@ -87,7 +87,7 @@ body{
     font-weight: 700;
     text-decoration: none;
     color: purple;
-    transition: 0.3s;
+    transition: 0.5s;
  }
 
  .navbar-menu li a:hover{
