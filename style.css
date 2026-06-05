@@ -215,6 +215,7 @@ body{
     padding-right: 80px;
     border-radius: 8px;
     position: relative;
+    transition: 0.5s;
 }
 
 .donate-button2 button:hover{
@@ -238,6 +239,7 @@ body{
     border-radius: 8px;
     border: none;
     position: relative;
+    transition: 0.5s;
 }
 
 .arrow img{
@@ -430,6 +432,7 @@ font-weight: 100;
     border-radius: 8px;
     cursor: pointer;
     border: none;
+    transition: 0.5s;
 }
 
 .learn-btn:hover{
@@ -497,6 +500,7 @@ font-weight: 100;
     color: purple;
     font-weight: 100;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .cta-btn:hover{
