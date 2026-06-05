@@ -124,7 +124,7 @@ body{
     transition: 0.3s;
 }
 
-.button:hover{
+.donate-button:hover{
     background-color: red;
     color: white;
 }
