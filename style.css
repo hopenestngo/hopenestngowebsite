@@ -23,6 +23,7 @@ body{
     left: 0;
     right: 0;
     position: sticky;
+    z-index: 100;
 }
 
 .left-section{
