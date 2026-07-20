@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hope Nest Community NGO</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="donate.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">   
+
+</head>
+    <body>
+
+        <div class="donate-page">
+
+            <div class="donate-left-container">
+
+                       <div class="donate-title">
+                         <img src="Images/logo/logo.jpg">
+                         <h1>HOPE NEST COMMUNITY NGO</h1>
+
+                         </div>
+
+                <div class="donate-input">
+
+                        <h1>Donation</h1>
+
+                    <div class="donate-value-container">
+
+                        <div class="currency">
+                           <p>$</p>
+                        </div>
+
+                        <div>
+                           <input type="text" id="donate-value" name="Donation" value="100" required class="donate-value">
+                        </div>
+
+                    </div>
+
+                        <button type="button" class="change-amount">
+                            Change Amount
+                        </button>
+                
+                  </div>
+
+
+            </div>
+
+
+
+            
+       <div class="donate-right-container">
+
+        
+
+              <form id="donation-form">
+
+                <label for="donor-name" class="group-label"> Donor's Name</label>
+                <input type="text" id="donor-name" name="Donor Name" required class="group-input">
+
+                <label for="email" class="group-label"> Email</label>
+                <input type="email" id="email" name="Email" required class="group-input">
+
+                <label for="phone" class="group-label"> Phone</label>
+                <input type="tel" id="phone" name="Phone" required class="group-input" pattern="[0-9+ ]{7,15}">
+
+                 <label for="city" class="group-label"> City</label>
+                <input type="text" id="city" name="City" required class="group-input">
+
+                <label for="state" class="group-label"> State</label>
+                <input type="text" id="state" name="State" required class="group-input">
+
+                <div class="payment">
+               <h1 class="method">Payment Method</h1>
+
+                  <div class="card-payment-container">
+
+                    <div class="card-payment-container-left">
+                        <input type="radio" class="radio" id="card-radio" name="payment-method" value="card" required>
+                         <img src="Images/icons/credit.png">
+                         <p>Card</p>
+                    </div>
+
+                    <div class="card-payment-container-right">
+                          <img src="Images/icons/219_visa.jpg">
+                          <img src="Images/icons/Mastercard-Logo-Transparent-Images.png">
+                          <img src="Images/icons/amex.png">
+                          <img src="Images/icons/paypal.png">
+                          
+                    </div>
+
+                   </div>
+
+                </div>
+                
+                <button type="submit" class="payment-button">Pay</button>
+               </form>
+
+
+           </div>
+
+            
+        </div>
+
+    </body>
+
+<script src="donate.js"></script>
+
+</html>
