@@ -450,7 +450,7 @@ body{
 }
 
 .footer-text{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.7;
     color: white;
     text-align: start;
@@ -471,7 +471,7 @@ body{
 
 .footer-column ul li a{
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -483,7 +483,7 @@ body{
 .footer-column p{
     color: white;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: start;
 }
 
